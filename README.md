@@ -18,8 +18,8 @@
     - [X] Measure by condition
  - [X] [Done](#unreal-frontend) Записувати файли профайлінга в готовому білді, відкривати їх на ПК
  - [X] [Done](#memory-dump) Знімати дампи пам'яті з білда
- - [X] [Done](#nentendo-profiling) Підключатися до пристрою і знімати файл профайлінгу ЦПУ.
- - [ ] Підключатися до пристрою і знімати файл профайлінгу ГПУ.
+ - [X] [Done](#nx-cpu-profiling) Підключатися до пристрою і знімати файл профайлінгу ЦПУ.
+ - [X] [Done](#nx-gpu-profiling) Підключатися до пристрою і знімати файл профайлінгу ГПУ.
  - [X] [Done](#networking)Ознайомлення з тим як зробити симуляцію підлагування нетворкінгу та зникнення пакетів(PacketSimulationSettings/PktLoss
 
 ## Logging
@@ -296,7 +296,9 @@ Base info can be found (Pingle VPN)[here](http://wiki.pingle/pages/viewpage.acti
 
 
 ### NX GPU profiling
+Tutorial how to is [here](http://wiki.pingle/pages/viewpage.action?pageId=62855563)
 
+![](./Resources/nx_gpu_profile.png)
 
 ## Network Profiling
 Info [here](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/PerformanceAndProfiling/UnrealInsights/NetworkingInsights)
